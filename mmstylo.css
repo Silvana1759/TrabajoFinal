@@ -1,0 +1,240 @@
+.html {
+    font-size: 62.5%;
+    font-family: sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 120rem;
+    margin: 0 auto;
+}
+   
+
+.container-hero{
+    background-color: black;
+}
+.hero {
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 2rem 0;
+}
+.customer-support{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+}
+.customer-support{
+    font-size: 3.3rem;
+}
+.content-cuestomer-support{
+    display: flex;
+    flex-direction: column;
+}
+.conteint.logo{
+    display: flex;
+    align-items: center;
+    gap:5rem;
+}
+.conteiner.logo{
+    font-size: 3rex;
+}
+.conteiner.logo h1a {
+   text-decoration:none;
+   color:black;
+   font-size: 3rex;
+   text-transform:uppercase ;
+   letter-spacing:-1px;
+}
+.continer.user {
+    display: flex;
+    gap:1rex;
+    cursor: pointer;
+}
+.continer.user.continer.user.fa-user{
+    font-size:3rex;
+    padding:2.5rex;
+    color:red;
+    border-right:1px solid;
+}
+.container.user.fa-basket-shooping{
+    font-size: 3rex ;
+    color: red;
+    padding-left: 1rex;
+}
+.container.user.fa-carrito{
+    display:flex;
+    flex-direction: column;
+}
+.container-naver{
+    background-color: burlywood;
+}
+.naver{
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 1 rem,0;
+}
+.naver .fa.barra{
+    display: none;
+}
+.naver{
+    display: flex;
+    gap:2rem;
+}
+.menu li{
+     list-style:none;
+}
+.menu a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:darkred;
+    font-weight: 700;
+    text-transform: translate(50%,50%);
+    transition: all,3s ease;
+}
+.barnner{
+    background-image: url(trabajo integrador/FERNET.jpeg);
+    height:60rem;
+    background-size:cover;
+    backgroud-position:center;
+}
+
+
+.fondo{
+    background-color:rgb(34, 32, 32) ;
+    background-size: cover;
+}
+.buttonContenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
+.button{
+    font-style:normal ;
+    font-size: 22px;
+    color:grey;
+    background-color: red;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.Titulo{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.titulo{
+    color:rgb(219, 10, 10);
+    font-size: 80px;
+    text-align: center;
+}
+header .foto1{
+    cursor: pointer;
+}
+header .foto1:hover{
+    transform: scale(1.2);
+}
+.titulo:hover{
+   color:grey;
+}
+
+.foto1{
+    width: auto;
+    height:250px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+.italic{
+    color: red;
+    font-style: italic;
+}
+.subtitulo{
+    font-size: 50px;
+    display: flex;
+    color: grey;
+    font-style: italic;
+    justify-content: center;
+    background-color: rgb(239, 28, 28);
+    background-size: 100%;
+    } 
+.contenedor{
+    display: flex;
+    justify-content:space-between;
+    margin-left: -70px;
+    margin-top: -25px;
+}   
+.contacto{
+    padding-left: 600px;
+}
+
+.historia{ 
+    margin-top:-10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-style:normal;
+    padding: 20px;
+    color: white;
+    background-color: grey;
+    background-size: 100%;
+}
+
+
+#imagenes{
+    display: flex;
+    flex-direction: column;
+    width: 80px;
+    height: auto;
+}
+
+
+#lista{
+    list-style: none;
+}
+#contactoForm{
+    width: 600px;
+    height: 400px;
+    padding-left: 400px;
+    background-color: rgb(128, 121, 121);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+   
+
+
+.formulario{
+    padding: 10px 15px;
+    background-color:rgb(128, 121, 121);
+    color:black;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    
+   
+    
+}
+ 
+
+.footer{
+    color:black;
+    font-style: normal;
+    font-size: 15px;
+    background-color: gray;
+    padding-bottom: 25px;
+    padding-top: 15px;
+
+    a.button{
+      color: rgb(41, 39, 39);
+}
+}
